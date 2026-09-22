@@ -1,0 +1,28 @@
+# Install everything with:   pip install -r requirements.txt
+
+# Interface
+streamlit>=1.36
+
+# LLM and embeddings
+openai>=1.40
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+
+# Vector store
+faiss-cpu>=1.8
+
+# Document loading
+pypdf>=4.2
+python-docx>=1.1
+
+# Configuration
+python-dotenv>=1.0
+
+# For running the tests:  pytest -v
+pytest>=8.0
+
+# Only needed to regenerate the sample documents:
+#   python scripts/generate_documents.py
+reportlab>=4.1
