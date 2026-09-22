@@ -137,10 +137,7 @@ enterprise-knowledge-assistant/
 ├── .env.example              template for the API key
 ├── .gitignore                excludes .env and index/
 ├── requirements.txt
-├── README.md                 this file
-├── HOW_TO_DEMO.md            a five-minute demonstration script
-├── GIT_SETUP.md              step-by-step GitHub instructions
-└── SKILLS_CHECKLIST.md       the assessed skills mapped to the code
+└── README.md                 this file
 ```
 
 Each module opens with a comment block explaining its stage of the pipeline.
@@ -153,7 +150,7 @@ Each module opens with a comment block explaining its stage of the pipeline.
 
 ```bash
 # 1. Get the project
-git clone https://github.com/<your-username>/enterprise-knowledge-assistant.git
+git clone https://github.com/ashishjain3284/knowledge-assistant.git
 cd enterprise-knowledge-assistant
 
 # 2. (Recommended) create a virtual environment
